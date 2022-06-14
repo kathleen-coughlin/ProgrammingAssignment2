@@ -16,9 +16,9 @@ makeCacheMatrix <- function(x = matrix()){
     
     #clear any previously cached inverse or x
     setInput <- function(y){
-        # assign input argument to the m object in parent environment
+        # assign input argument to the x object in parent environment
         x <<- y 
-        #  assign NULL to the inv onject in parent environment
+        #  assign NULL to the inv object in parent environment
         inv <<- NULL
     } 
     
